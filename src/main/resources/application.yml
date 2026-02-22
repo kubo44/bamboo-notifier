@@ -1,0 +1,5 @@
+bamboo:
+  url: <Bamboo URL>
+  token: <Add your personal access token here>
+  projects: <List of your project names, separated by comma>
+  checkIntervalMinutes: 15
