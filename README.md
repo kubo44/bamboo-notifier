@@ -18,7 +18,8 @@ that do not have status Successful.
 ## How to run
 
 1. [Download binary for Windows](https://github.com/kubo44/bamboo-notifier/releases/latest/download/bamboo-notifier.zip)
-2. Update file bamboo-notifier.yml
+2. Update the configuration in bamboo-notifier.yml.
+3. (Optional) Set up Autostart – see the FAQs.
 
 ## Configuration
 
@@ -34,16 +35,16 @@ In the configuration file `bamboo-notifier.yml` provide:
 ### How to start the app automatically?
 
 1. Extract zip to the folder of your choice.
-1. Press Windows Key + R to open the "Run" dialog.
-1. Type shell:startup and click OK.
-1. Drag and drop the application's shortcut (or a copy of the executable) into this folder.
+2. Press Windows Key + R to open the "Run" dialog.
+3. Type shell:startup and click OK.
+4. Drag and drop the application's shortcut (or a copy of the executable) into this folder.
 
 ### How to Build
 
 1. Build the application with Maven.
-1. In target directory you will find archive bamboo-notifier.zip
-1. Extract the archive and modify bamboo-notifier.yml as needed.
-1. Start the application: bamboo-notifier.exe
+2. In target directory you will find archive bamboo-notifier.zip
+3. Extract the archive and modify bamboo-notifier.yml as needed.
+4. Start the application: bamboo-notifier.exe
 
 ## Known Issues
 
