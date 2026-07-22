@@ -37,7 +37,7 @@ In the configuration file `bamboo-notifier.yml` provide:
 
 ## FAQ
 
-* How to start the app automatically?
+### How to start the app automatically?
 
 - Extract zip to the folder of your choice.
 - Press Windows Key + R to open the "Run" dialog.
@@ -46,7 +46,6 @@ In the configuration file `bamboo-notifier.yml` provide:
 
 ## Known Issues
 
-* Create pipeline to build jar/zip automatically
 * Add parameter to log every processing with result into log file in cwd
 * Don't try to connect immediately after start to prevent initial errors (windows starts, no VPN etc.)
 * Check if server is available before processing
