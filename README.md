@@ -24,7 +24,11 @@ In the configuration file `bamboo-notifier.yml` provide:
 - `projects`: Comma‑separated list of Bamboo project names to monitor
 - `checkIntervalMinutes`: (optional) How often the app should check Bamboo for build statuses (default: 15)
 
-## How to Run
+## Download
+
+[Download for Windows](https://github.com/kubo44/bamboo-notifier/releases/latest/download/bamboo-notifier.exe)
+
+## How to Build
 
 1. Build the application with Maven.
 2. In target directory you will find archive bamboo-notifier-0.0.1-SNAPSHOT.zip
@@ -32,13 +36,16 @@ In the configuration file `bamboo-notifier.yml` provide:
 4. Start the application: bamboo-notifier.exe
 
 ## FAQ
+
 * How to start the app automatically?
-- Extract zip to the folder of your choice. 
+
+- Extract zip to the folder of your choice.
 - Press Windows Key + R to open the "Run" dialog.
 - Type shell:startup and click OK.
 - Drag and drop the application's shortcut (or a copy of the executable) into this folder.
 
 ## Known Issues
+
 * Create pipeline to build jar/zip automatically
 * Add parameter to log every processing with result into log file in cwd
 * Don't try to connect immediately after start to prevent initial errors (windows starts, no VPN etc.)
