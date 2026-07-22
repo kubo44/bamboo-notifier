@@ -15,6 +15,11 @@ that do not have status Successful.
 - Access to a Bamboo instance with a valid **Personal access token**
 - PC with Windows
 
+## How to run
+
+1. [Download binary for Windows](https://github.com/kubo44/bamboo-notifier/releases/latest/download/bamboo-notifier.zip)
+2. Update file bamboo-notifier.yml
+
 ## Configuration
 
 In the configuration file `bamboo-notifier.yml` provide:
@@ -24,25 +29,21 @@ In the configuration file `bamboo-notifier.yml` provide:
 - `projects`: Comma‑separated list of Bamboo project names to monitor
 - `checkIntervalMinutes`: (optional) How often the app should check Bamboo for build statuses (default: 15)
 
-## Download
-
-[Download for Windows](https://github.com/kubo44/bamboo-notifier/releases/latest/download/bamboo-notifier.zip)
-
-## How to Build
-
-1. Build the application with Maven.
-2. In target directory you will find archive bamboo-notifier-0.0.1-SNAPSHOT.zip
-3. Extract the archive and modify bamboo-notifier.yml as needed.
-4. Start the application: bamboo-notifier.exe
-
 ## FAQ
 
 ### How to start the app automatically?
 
-- Extract zip to the folder of your choice.
-- Press Windows Key + R to open the "Run" dialog.
-- Type shell:startup and click OK.
-- Drag and drop the application's shortcut (or a copy of the executable) into this folder.
+1. Extract zip to the folder of your choice.
+1. Press Windows Key + R to open the "Run" dialog.
+1. Type shell:startup and click OK.
+1. Drag and drop the application's shortcut (or a copy of the executable) into this folder.
+
+### How to Build
+
+1. Build the application with Maven.
+1. In target directory you will find archive bamboo-notifier.zip
+1. Extract the archive and modify bamboo-notifier.yml as needed.
+1. Start the application: bamboo-notifier.exe
 
 ## Known Issues
 
