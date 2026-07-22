@@ -13,6 +13,7 @@ that do not have status Successful.
 
 - Java installed
 - Access to a Bamboo instance with a valid **Personal access token**
+- PC with Windows
 
 ## Configuration
 
@@ -29,6 +30,21 @@ In the configuration file `bamboo-notifier.yml` provide:
 2. In target directory you will find archive bamboo-notifier-0.0.1-SNAPSHOT.zip
 3. Extract the archive and modify bamboo-notifier.yml as needed.
 4. Start the application: bamboo-notifier.exe
+
+## FAQ
+* How to start the app automatically?
+- Extract zip to the folder of your choice. 
+- Press Windows Key + R to open the "Run" dialog.
+- Type shell:startup and click OK.
+- Drag and drop the application's shortcut (or a copy of the executable) into this folder.
+
+## Known Issues
+* Create pipeline to build jar/zip automatically
+* Add parameter to log every processing with result into log file in cwd
+* Don't try to connect immediately after start to prevent initial errors (windows starts, no VPN etc.)
+* Check if server is available before processing
+* Add parameter to hide console
+* Nice error message when incorrect parameter (e.g. invalid project name)
 
 ## License
 
