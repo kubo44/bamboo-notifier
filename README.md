@@ -26,7 +26,7 @@ In the configuration file `bamboo-notifier.yml` provide:
 
 ## Download
 
-[Download for Windows](https://github.com/kubo44/bamboo-notifier/releases/latest/download/bamboo-notifier.exe)
+[Download for Windows](https://github.com/kubo44/bamboo-notifier/releases/latest/download/bamboo-notifier.zip)
 
 ## How to Build
 
