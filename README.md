@@ -17,7 +17,9 @@ that do not have status Successful.
 
 ## How to run
 
-1. [Download binary for Windows](https://github.com/kubo44/bamboo-notifier/releases/latest/download/bamboo-notifier.zip)
+1. Download and
+   unpack
+   the [package for Windows](https://github.com/kubo44/bamboo-notifier/releases/latest/download/bamboo-notifier.zip)
 2. Update the configuration in bamboo-notifier.yml.
 3. (Optional) Set up Autostart – see the FAQs.
 
