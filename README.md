@@ -50,10 +50,7 @@ In the configuration file `bamboo-notifier.yml` provide:
 
 ## Known Issues
 
-* Add parameter to log every processing with result into log file in cwd
-* Don't try to connect immediately after start to prevent initial errors (windows starts, no VPN etc.)
 * Check if server is available before processing
-* Add parameter to hide console
 * Nice error message when incorrect parameter (e.g. invalid project name)
 
 ## License

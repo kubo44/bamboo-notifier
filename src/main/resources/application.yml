@@ -3,3 +3,10 @@ bamboo:
   token: <Add your personal access token here>
   projects: <List of your project names, separated by comma>
   checkIntervalMinutes: 15
+logging:
+  console:
+    enabled: false
+  file:
+    name: bamboo-notifier.log
+  level:
+    root: INFO
