@@ -68,15 +68,6 @@
 	</dependencies>
 
 	<build>
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
-				<includes>
-					<include>bamboo-notifier.bat</include>
-				</includes>
-			</resource>
-		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -132,6 +123,7 @@
 						<configuration>
 							<headerType>gui</headerType>
 							<outfile>${project.build.directory}/bamboo-notifier.exe</outfile>
+							<icon>${project.basedir}/src/main/launch4j/bamboo-notifier.ico</icon>
 							<jar>${project.build.directory}/${project.build.finalName}.jar</jar>
 							<errTitle>BambooNotifier</errTitle>
 							<cmdLine>--spring.config.name=bamboo-notifier</cmdLine>
